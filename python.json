@@ -1,0 +1,25 @@
+{	
+	"cp_h1": {
+	"prefix": "cp_h1",
+	"body": [
+		"import sys",
+		"import os",
+		"",
+		"if(os.path.exists(\"ip.txt\")):",
+		"    sys.stdin = open('ip.txt', 'r')",
+		"    sys.stdout = open('op.txt', 'w')",
+		"",
+		"#custom_ip",
+		"geti = lambda : int(input())",
+		"gets = lambda : input()",
+		"geti_arr = lambda : [int(x) for x in input().split()]",
+		"gets_arr = lambda n : [input() for _ in range(n)] # n lines raw string i/p",
+		" ",
+		" ",
+		"#custom_op",
+		"txt_yn = lambda cond : \"YNEOS\"[1-cond::2] # Enter condition for YES",
+		"txt_iarr = lambda iarr : \" \".join(map(str,iarr))"
+	],
+	"description": "cp_h1"
+	},
+}
