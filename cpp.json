@@ -595,6 +595,7 @@
     "4) cout << fixed << setprecision(p) << val;",
     "    - W/out fixed, precision is the #{Significant digits}",
     "    - With fixed, precision is #{Digits after decimal point}",
+	"5) 31 - clz(x) = floor(log2(x))",
     "*/",
     "",
     "/*",
